@@ -33,3 +33,19 @@ header{
   padding: 10px;
   margin: 0 auto;
 }
+.custom-project-container{
+  max-width: 1400px;
+  padding: 10px;
+  margin: 0 auto;
+}
+.project-image-container{
+  background-size: cover;
+  background-position: top;
+  /* background-color: red; */
+  transition: ease-in-out 5s;
+
+  overflow: hidden;
+}
+.project-image-container:hover{
+  background-position: bottom;
+}

@@ -10,8 +10,12 @@ const Hero = () => {
                     <h1 className='text-3xl md:text-6xl font-bold text-gray-800'>Front-End React Developer</h1>
                     <p className='text-lg text-gray-600 mt-4'>Hi, I'm Vikas Saini. A passionate Front-end React Developer based in Pune, India. 📍</p>
                     <div className='flex items-center justify-center md:justify-start gap-4 mt-4'>
-                        <IconBrandGithub size={36} />
-                        <IconBrandLinkedin size={36}/>
+                        <a target='_blank' href="https://www.linkedin.com/in/vikas-saini-602b96227">
+                            <IconBrandLinkedin size={36}/>
+                        </a>
+                        <a target='_blank' href="https://github.com/vikas-saini-7">
+                            <IconBrandGithub size={36} />
+                        </a>
                     </div>
                 </div>
                 <div className='md:w-1/2 w-full flex justify-center'>

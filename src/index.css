@@ -49,3 +49,12 @@ header{
 .project-image-container:hover{
   background-position: bottom;
 }
+
+@media (max-width: 450px){
+  .custom-container{
+    padding: 7% 18px;
+  }
+  .custom-project-container{
+    padding: 7% 18px;
+  }
+}

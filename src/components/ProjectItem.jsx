@@ -4,9 +4,9 @@ import React from 'react'
 const ProjectItem = ({project}) => {
   const {id, type, name, tech, description, links, image} = project;
   return (
-    <div className='flex gap-12 mb-16'>
-        <div style={{backgroundImage: `url('${image}')`}} className='project-image-container w-1/2 h-[360px] overflow-hidden border rounded-xl'></div>
-        <div className='w-1/2 flex flex-col gap-4 mt-4'>
+    <div className='flex flex-col md:flex-row md:gap-12 overflow-hidden'>
+        <div style={{backgroundImage: `url('${image}')`}} className='project-image-container w-full md:w-1/2 h-[220px] md:h-[360px] overflow-hidden border rounded-xl'></div>
+        <div className='w-full md:w-1/2 flex flex-col gap-2 md:gap-4 mt-4'>
           <h1 className='uppercase text-blue-600 font-bold text-xl'>{type}</h1>
           <h2 className='font-bold text-2xl text-gray-800'>{name}</h2>
           <p className='text-lg text-gray-600'><b>Tech Stack:</b> {tech.map((item) => (<span>{item}, </span>))}</p>

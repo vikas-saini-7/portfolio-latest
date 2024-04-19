@@ -5,7 +5,7 @@ import { ProjectsData } from '../constants'
 const Projects = () => {
   return (
     <div id='projects' className='bg-gray-100 py-[7%]'>
-      <div className='custom-project-container'>
+      <div className='custom-project-container flex flex-col gap-24 md:gap-16'>
         {/* <h1 className='text-2xl font-bold'>New Projects adding soon..</h1> */}
         {ProjectsData?.map((project) => (
           <ProjectItem key={project.id} project={project} />

@@ -12,7 +12,7 @@ const Projects = () => {
             <ProjectItem key={project.id} project={project} />
           </>
         ))}
-        {ProjectsData.length === 2 && <p className='mt-4 text-center text-xl font-bold'> 😎 Cool Projects adding soon</p>}
+        {ProjectsData.length <= 2 && <p className='mt-4 text-center text-xl font-bold'> 😎 Cool Projects adding soon</p>}
       </div>
     </div>
   )

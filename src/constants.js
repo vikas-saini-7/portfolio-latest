@@ -12,18 +12,18 @@ export const ProjectsData = [
         },
         image: 'images/projects/project-1.png'
     },
-    {
-        id: 2,
-        type: 'Club Website',
-        name: 'Acunetix 11.0',
-        tech: ["NextJS", "Tailwind CSS"],
-        description: ["Helped seniors in developing Acunetix Event website."],
-        links: {
-            live: 'https://www.acunetix11.tech',
-            github: 'https://github.com/vikas-saini-7/Acunetix11'
-        },
-        image: 'images/projects/project-2.png'
-    },
+    // {
+    //     id: 2,
+    //     type: 'Club Website',
+    //     name: 'Acunetix 11.0',
+    //     tech: ["NextJS", "Tailwind CSS"],
+    //     description: ["Helped seniors in developing Acunetix Event website."],
+    //     links: {
+    //         live: 'https://www.acunetix11.tech',
+    //         github: 'https://github.com/vikas-saini-7/Acunetix11'
+    //     },
+    //     image: 'images/projects/project-2.png'
+    // },
     // {
     //     id: 3,
     //     type: 'Self Learning',

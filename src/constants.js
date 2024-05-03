@@ -24,16 +24,16 @@ export const ProjectsData = [
         },
         image: 'images/projects/project-2.png'
     },
-    {
-        id: 3,
-        type: 'Self Learning',
-        name: 'CoinCap - Crypto',
-        tech: ["HTML","SCSS" ,"Tailwind CSS", "ReactJS"],
-        description: ["Created web app that can be used to view cryptocurrency details."],
-        links: {
-            live: 'https://coincap-crypto.vercel.app',
-            github: 'https://github.com/vikas-saini-7/coincap-crypto'
-        },
-        image: 'images/projects/project-3.png'
-    },
+    // {
+    //     id: 3,
+    //     type: 'Self Learning',
+    //     name: 'CoinCap - Crypto',
+    //     tech: ["HTML","SCSS" ,"Tailwind CSS", "ReactJS"],
+    //     description: ["Created web app that can be used to view cryptocurrency details."],
+    //     links: {
+    //         live: 'https://coincap-crypto.vercel.app',
+    //         github: 'https://github.com/vikas-saini-7/coincap-crypto'
+    //     },
+    //     image: 'images/projects/project-3.png'
+    // },
 ]

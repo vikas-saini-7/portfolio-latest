@@ -12,7 +12,7 @@ const ProjectItem = ({project}) => {
           <p className='text-lg text-gray-600'><b>Tech Stack:</b> {tech.map((item) => (<span>{item}, </span>))}</p>
           {description.map((item) => (<p className='text-lg text-gray-600'>{item}</p>))}
           <div className='flex gap-4 mt-4'>
-            <a target='_blank' href={links?.live}><button className='bg-red-600 text-white px-4 py-2 rounded flex items-center gap-1'> <IconLink/> Check Live</button></a>
+            <a target='_blank' href={links?.live}><button className='bg-blue-600 text-white px-4 py-2 rounded flex items-center gap-1'> <IconLink/> Check Live</button></a>
             <a target='_blank' href={links?.github}><button className='bg-gray-800 text-white px-4 py-2 rounded flex items-center gap-1'> <IconBrandGithub/> View Code</button></a>
           </div>
         </div>

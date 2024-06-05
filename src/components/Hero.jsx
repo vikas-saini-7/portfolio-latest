@@ -17,6 +17,9 @@ const Hero = () => {
                             <IconBrandGithub size={36} />
                         </a>
                     </div>
+                    <a href="./Vikas_Saini_Resume.pdf" target='_blank'>
+                        <p className='mt-4'>Download Resume</p>
+                    </a>
                 </div>
                 <div className='md:w-1/2 w-full flex justify-center'>
                     <img className='w-1/2 md:w-full object-contain' src="images/profile.webp" alt="" />

@@ -3,37 +3,61 @@ export const ProjectsData = [
     {
         id: 1,
         type: 'self learning',
+        name: 'DarkFlix- Movies Mern App',
+        tech: ["Mern Stack", "Tailwind css", "ReactJS", "Redux Toolkit"],
+        description: ["Created fully working Login and Signup System.", "Backend made with NodeJS and ExpressJS with MongoDB integration", "Built review system so that user can give review on the movies and tv-series"],
+        links: {
+            live: 'https://movies-mern.vercel.app/',
+            github: 'https://github.com/vikas-saini-7/movies-mern'
+        },
+        image: 'images/projects/project-1.png'
+    },
+    {
+        id: 2,
+        type: 'startup web-app',
+        name: 'MyTribe - Frontend',
+        tech: ["ReactJS", " Tailwind css", "ReduxToolkit", "Responsive"],
+        description: ["Developed MyTribe's fully functional frontend.", "Created multiple ui for roles like - Content Creator, Event Organiser, Event Sponsor, Admin."],
+        links: {
+            live: 'https://mytribe-frontend.vercel.app/user',
+            github: 'https://github.com/mytribe04/mytribe-frontend'
+        },
+        image: 'images/projects/project-2.png'
+    },
+    {
+        id: 3,
+        type: 'Club Website',
+        name: 'Acunetix 11.0 - College Event Website',
+        tech: ["NextJS", "Tailwind css", "HTML", "CSS", "Javascript"],
+        description: ["Helped seniors to develop event's website.", "In Acunetix we organised 11 events [6 Tech + 5 Non-Tech] in just 3 days where 1500+ participants attended the event."],
+        links: {
+            live: 'https://www.acunetix11.tech',
+            github: 'https://github.com/vikas-saini-7/Acunetix11'
+        },
+        image: 'images/projects/project-3.png'
+    },
+    {
+        id: 4,
+        type: 'Self Learning',
+        name: 'UI Clones - Whatsapp, Instagram',
+        tech: ["HTML","SCSS" ,"Tailwind CSS", "ReactJS"],
+        description: ["Created clones of well known websites that made me curious to think - How this web app is created? or a particular component is made?"],
+        links: {
+            live: 'https://coincap-crypto.vercel.app',
+            github: 'https://github.com/vikas-saini-7/coincap-crypto'
+        },
+        image: 'images/projects/project-4.png'
+    },
+    {
+        id: 5,
+        type: 'self learning',
         name: 'Portfolio - Vikas Saini',
         tech: ["HTML", "CSS", "ReactJS", "Tailwind CSS"],
-        description: ["Created portfolio that showcases my frontend expertise."],
+        description: ["Created portfolio that showcase my frontend expertise."],
         links: {
             live: 'https://vikas-saini.vercel.app',
             github: 'https://github.com/vikas-saini-7/portfolio-latest'
         },
-        image: 'images/projects/project-1.png'
+        image: 'images/projects/project-5.png'
     },
-    // {
-    //     id: 2,
-    //     type: 'Club Website',
-    //     name: 'Acunetix 11.0',
-    //     tech: ["NextJS", "Tailwind CSS"],
-    //     description: ["Helped seniors in developing Acunetix Event website."],
-    //     links: {
-    //         live: 'https://www.acunetix11.tech',
-    //         github: 'https://github.com/vikas-saini-7/Acunetix11'
-    //     },
-    //     image: 'images/projects/project-2.png'
-    // },
-    // {
-    //     id: 3,
-    //     type: 'Self Learning',
-    //     name: 'CoinCap - Crypto',
-    //     tech: ["HTML","SCSS" ,"Tailwind CSS", "ReactJS"],
-    //     description: ["Created web app that can be used to view cryptocurrency details."],
-    //     links: {
-    //         live: 'https://coincap-crypto.vercel.app',
-    //         github: 'https://github.com/vikas-saini-7/coincap-crypto'
-    //     },
-    //     image: 'images/projects/project-3.png'
-    // },
 ]

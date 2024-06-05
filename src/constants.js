@@ -43,8 +43,8 @@ export const ProjectsData = [
         tech: ["HTML","SCSS" ,"Tailwind CSS", "ReactJS"],
         description: ["Created clones of well known websites that made me curious to think - How this web app is created? or a particular component is made?"],
         links: {
-            live: 'https://coincap-crypto.vercel.app',
-            github: 'https://github.com/vikas-saini-7/coincap-crypto'
+            live: 'https://whatsapp-vk.vercel.app',
+            github: 'https://github.com/vikas-saini-7/ui-clones'
         },
         image: 'images/projects/project-4.png'
     },

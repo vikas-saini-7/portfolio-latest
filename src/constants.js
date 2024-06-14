@@ -19,7 +19,7 @@ export const ProjectsData = [
         tech: ["ReactJS", " Tailwind css", "ReduxToolkit", "Responsive"],
         description: ["Developed MyTribe's fully functional frontend.", "Created multiple ui for roles like - Content Creator, Event Organiser, Event Sponsor, Admin."],
         links: {
-            live: 'https://mytribe-frontend.vercel.app/user',
+            live: 'https://mytribe-frontend.vercel.app',
             github: 'https://github.com/mytribe04/mytribe-frontend'
         },
         image: 'images/projects/project-2.png'

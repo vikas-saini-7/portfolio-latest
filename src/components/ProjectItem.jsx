@@ -4,7 +4,7 @@ import React from 'react'
 const ProjectItem = ({project}) => {
   // Function to generate random color
   const getRandomColor = () => {
-    const colors = ['text-red-700', 'text-green-700','text-blue-700', 'text-purple-700', 'text-yellow-700', 'text-orange-700']
+    const colors = ['text-red-700', 'text-green-700','text-blue-700', 'text-purple-700', 'text-pink-700', 'text-gray-700']
     let colorClass = '';
     const randomNumber = Math.floor(Math.random() * colors.length)
     colorClass += colors[randomNumber];

@@ -2,7 +2,7 @@
 export const ProjectsData = [
     {
         id: 0,
-        type: 'self learning',
+        type: 'Blog Website',
         name: 'Vikas Saini Blog',
         tech: ["NextJS", "Tailwind css", "ReactJS", "Strapi"],
         description: ["Created fully functional blog webapp where I post content related to Tech.", "Integrated Strapi Content Management System which made managing blogs easily."],

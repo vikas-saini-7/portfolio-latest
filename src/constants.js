@@ -1,6 +1,18 @@
 
 export const ProjectsData = [
     {
+        id: 0,
+        type: 'self learning',
+        name: 'Vikas Saini Blog',
+        tech: ["NextJS", "Tailwind css", "ReactJS", "Strapi"],
+        description: ["Created fully functional blog webapp where I post content related to Tech.", "Integrated Strapi Content Management System which made managing blogs easily."],
+        links: {
+            live: 'https://vikas-saini-blog.vercel.app/',
+            github: 'https://github.com/vikas-saini-7/blog-nextjs-strapi'
+        },
+        image: 'images/projects/project-0.png'
+    },
+    {
         id: 1,
         type: 'self learning',
         name: 'DarkFlix- Movies Mern App',

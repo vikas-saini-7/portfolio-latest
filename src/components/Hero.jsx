@@ -17,7 +17,7 @@ const Hero = () => {
                             <IconBrandGithub size={36} />
                         </a>
                     </div>
-                        <p className='mt-4 w-fit'>
+                        <p className='mt-4 md:w-fit'>
                             <a href="./Vikas_Saini_Resume.pdf" target='_blank'>
                                 Download Resume
                             </a>

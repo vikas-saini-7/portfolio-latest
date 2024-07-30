@@ -4,17 +4,18 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
+import Blogs from "./components/Blogs";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Hero/>
-      <About/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <Header />
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      <Blogs />
+      <Footer />
     </div>
   );
 }

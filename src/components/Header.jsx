@@ -87,6 +87,13 @@ const Header = () => {
               >
                 <li>Contact</li>
               </a>
+              <a
+                onClick={toggleDrawer}
+                href="https://vikas-saini-blog.vercel.app"
+                className="hover:text-purple-600 transition-all"
+              >
+                <li>Blog</li>
+              </a>
             </ul>
           </div>
         </Drawer>

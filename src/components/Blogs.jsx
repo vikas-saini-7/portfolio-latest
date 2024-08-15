@@ -20,14 +20,14 @@ const Blogs = () => {
     fetchBlogs();
   }, []);
   return (
-    <div id="blogs" className="bg-gray-100 py-[5%]">
+    <div id="blogs" className="bg-gray-100 py-[5%] px-2">
       <div className="custom-project-container">
-        <h1 className="mb-8 uppercase text-blue-600 font-bold text-xl text-center">
+        <h1 className="mb-8 uppercase text-purple-600 font-bold text-xl text-center">
           Recent Blog Posts
         </h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          {posts.map((post) => (
-            <div className="">
+        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          {posts.slice(0, 3).map((post) => (
+            <div className="bg-white p-4 rounded-xl shadow-md">
               <img className="rounded-xl" src={post?.image} alt="" />
               <a
                 target="_blank"

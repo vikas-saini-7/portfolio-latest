@@ -10,23 +10,28 @@ const Header = () => {
   };
   return (
     <>
-      <header className="flex items-center justify-between h-[80px] px-[3%] shadow-lg shadow-gray-100">
-        <div className="text-xl font-bold">Vikas.dev</div>
+      <header className="z-50 relative flex items-center justify-between h-[80px] px-[5%] bg-white shadow-md shadow-black/5">
+        <a href="/">
+          <div className="text-2xl text-purple-600 font-bold">Vikas.dev</div>
+        </a>
         <nav>
-          <ul className="hidden md:flex items-center gap-4 font-semibold text-lg">
-            <a href="./" className="hover:text-blue-600 transition-all">
+          <ul className="hidden md:flex items-center gap-4 lg:gap-6 font-semibold text-lg">
+            <a href="./" className="hover:text-purple-600 transition-all">
               <li>Home</li>
             </a>
-            <a href="#projects" className="hover:text-blue-600 transition-all">
+            <a
+              href="#projects"
+              className="hover:text-purple-600 transition-all"
+            >
               <li>Projects</li>
             </a>
-            <a href="#contact" className="hover:text-blue-600 transition-all">
+            <a href="#contact" className="hover:text-purple-600 transition-all">
               <li>Contact</li>
             </a>
             <a
               target="_blank"
               href="https://vikas-saini-blog.vercel.app"
-              className="hover:text-blue-600 transition-all"
+              className="hover:text-purple-600 transition-all"
             >
               <li>Blog</li>
             </a>
@@ -57,28 +62,28 @@ const Header = () => {
               <a
                 onClick={toggleDrawer}
                 href="./"
-                className="hover:text-blue-600 transition-all"
+                className="hover:text-purple-600 transition-all"
               >
                 <li>Home</li>
               </a>
               <a
                 onClick={toggleDrawer}
                 href="#about"
-                className="hover:text-blue-600 transition-all"
+                className="hover:text-purple-600 transition-all"
               >
                 <li>About</li>
               </a>
               <a
                 onClick={toggleDrawer}
                 href="#projects"
-                className="hover:text-blue-600 transition-all"
+                className="hover:text-purple-600 transition-all"
               >
                 <li>Projects</li>
               </a>
               <a
                 onClick={toggleDrawer}
                 href="#contact"
-                className="hover:text-blue-600 transition-all"
+                className="hover:text-purple-600 transition-all"
               >
                 <li>Contact</li>
               </a>

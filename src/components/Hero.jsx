@@ -26,7 +26,7 @@ const Hero = () => {
               </a>
             </div>
             <p className="mt-4 md:w-fit">
-              <a href="./Vikas_Saini_Resume.pdf" target="_blank">
+              <a href="./resume/Vikas_Saini_Frontend_Developer_Resume.pdf" target="_blank">
                 Download Resume
               </a>
             </p>

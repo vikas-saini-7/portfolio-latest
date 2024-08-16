@@ -24,5 +24,7 @@ body{
   @media (max-width: 768px) {
     .hero-bg {
       background: radial-gradient(circle, transparent, transparent,rgba(128, 0, 128, 0.3), transparent, transparent);
+      background-size: 200% 200%;
+      animation: gradientShift 15s ease infinite;
     }
   }

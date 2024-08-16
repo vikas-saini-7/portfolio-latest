@@ -3,7 +3,7 @@ import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
 
 const Hero = () => {
   return (
-    <div className="relative z-30 py-[8%] shadow-md shadow-black/10">
+    <div className="relative z-30 py-[8%] shadow-md shadow-black/10 min-h-[70vh]">
       <div className="absolute z-40 inset-0 hero-bg"></div>
       <div className="custom-container relative z-50">
         <div className="flex px-4 flex-col-reverse md:flex-row item-center justify-center gap-12 text-center md:text-left">

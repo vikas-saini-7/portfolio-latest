@@ -21,3 +21,8 @@ body{
     animation: gradientShift 15s ease infinite;
   }
   
+  @media (max-width: 768px) {
+    .hero-bg {
+      background: radial-gradient(circle, transparent, transparent,rgba(128, 0, 128, 0.3), transparent, transparent);
+    }
+  }

@@ -1,3 +1,23 @@
 body{
     background-color: whitesmoke;
 }
+
+/* In your styles.css or a module.css file */
+@keyframes gradientShift {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+  
+  .hero-bg {
+    background: radial-gradient(circle, transparent, transparent,rgba(128, 0, 128, 0.1), transparent, transparent);
+    background-size: 200% 200%;
+    animation: gradientShift 15s ease infinite;
+  }
+  

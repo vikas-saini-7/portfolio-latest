@@ -38,7 +38,7 @@ const Hero = () => {
           <div className="md:w-1/2 w-full flex justify-center rounded-xl">
             <img
               className="w-1/2 md:w-full h-auto object-contain rounded-xl "
-              src="images/profile.webp"
+              src="images/profile.jpg"
               alt=""
             />
           </div>

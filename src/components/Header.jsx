@@ -3,7 +3,7 @@ import "react-modern-drawer/dist/index.css";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isScrollingUp, setIsScrollingUp] = useState(false);
+  const [isScrollingUp, setIsScrollingUp] = useState(true);
   const [lastScrollTop, setLastScrollTop] = useState(0);
 
   const toggleDrawer = () => {
@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <div className="flex items-start justify-center">
       <header
-        className={`z-50 fixed mt-4 flex gap-10 md:gap-20 lg:gap-42 items-center justify-between h-[60px] lg:w-[calc(80vw)] w-[calc(90vw)] ${
+        className={`z-50 fixed mt-4 flex gap-10 md:gap-20 lg:gap-42 items-center justify-between h-[60px]  ${
           isScrollingUp
             ? "lg:w-[calc(80vw)] w-[calc(90vw)]"
             : "lg:w-[calc(60vw)] w-[calc(90vw-16px)]"

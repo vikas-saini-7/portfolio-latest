@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <div className="flex items-start justify-center">
       <header
-        className={`z-50 fixed mt-4 flex gap-10 md:gap-20 lg:gap-42 items-center justify-between h-[60px] ${
+        className={`z-50 fixed mt-4 flex gap-10 md:gap-20 lg:gap-42 items-center justify-between h-[60px] lg:w-[calc(80vw)] w-[calc(90vw)] ${
           isScrollingUp
             ? "lg:w-[calc(80vw)] w-[calc(90vw)]"
             : "lg:w-[calc(60vw)] w-[calc(90vw-16px)]"

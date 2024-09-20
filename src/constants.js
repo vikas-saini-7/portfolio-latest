@@ -1,5 +1,27 @@
 export const ProjectsData = [
   {
+    id: 100,
+    type: "Software Solution",
+    name: "Vikas Saini Blog",
+    tech: [
+      "NextJS",
+      "Tailwind Css",
+      "Redux Toolkit",
+      "NodeJS",
+      "ExpressJS",
+      "Socket.io",
+    ],
+    description: [
+      "This platform can be used to code together. It can be used for teaching purpose. Fast and very smooth user experience.",
+      "Realtime chatting, Calling and Video calling features.",
+    ],
+    links: {
+      live: "https://realtime-code-collab.vercel.app",
+      github: "https://github.com/vikas-saini-7/code-collab",
+    },
+    image: "images/projects/project-00.png",
+  },
+  {
     id: 0,
     type: "Blog Website",
     name: "Vikas Saini Blog",

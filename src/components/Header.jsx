@@ -37,10 +37,10 @@ const Header = () => {
           isScrollingUp
             ? "lg:w-[calc(80vw)] w-[calc(90vw)]"
             : "lg:w-[calc(60vw)] w-[calc(90vw-16px)]"
-        } px-[5%] bg-white rounded-lg shadow-md shadow-black/5 transition-all duration-300`}
+        } px-[5%] bg-white/60 backdrop-blur rounded-lg shadow-md shadow-black/5 transition-all duration-300`}
       >
         <a href="/">
-          <div className="text-2xl text-purple-600 font-bold">Vikas.dev</div>
+          <div className="text-2xl text-purple-700 font-bold">Vikas Saini</div>
         </a>
         <nav>
           <ul className="hidden md:flex items-center gap-4 lg:gap-6 font-semibold text-lg">

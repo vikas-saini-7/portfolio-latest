@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
 export default function ContactForm() {
+  const [loading, setLoading] = useState(false);
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -10,8 +12,7 @@ export default function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    console.log(formData);
+    setLoading(true);
 
     emailjs
       .send(
@@ -22,9 +23,11 @@ export default function ContactForm() {
       )
       .then(
         (result) => {
+          setLoading(false);
           alert("Email sent successfully!");
         },
         (error) => {
+          setLoading(false);
           alert("Failed to send email. Try again later.");
         }
       );
@@ -46,7 +49,7 @@ export default function ContactForm() {
             />
           </div>
           <div className="flex-1">
-            <h2 className="text-2xl font-bold mb-6">Contact Us</h2>
+            <h2 className="text-2xl font-bold mb-6">Contact Me</h2>
             <form className="space-y-4">
               <div className="flex flex-col gap-1">
                 <label htmlFor="name">Name</label>
@@ -87,7 +90,7 @@ export default function ContactForm() {
                 onClick={handleSubmit}
                 className="w-full bg-gray-800 hover:bg-black text-white px-4 py-2 rounded mt-6 block"
               >
-                Send Message
+                {loading ? "Sending..." : "Send Message"}
               </button>
             </form>
           </div>

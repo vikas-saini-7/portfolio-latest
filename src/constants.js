@@ -46,21 +46,6 @@ export const ProjectsData = [
     image: "images/projects/project-0.png",
   },
   {
-    id: 1,
-    type: "self learning",
-    name: "DarkFlix- Movies Mern App",
-    tech: ["Mern Stack", "Tailwind css", "ReactJS", "Redux Toolkit", "MongoDB"],
-    description: [
-      "Created fully functional Authentication System.",
-      "Built comment system so that user can comment and organise their comments on the movies and tv-series",
-    ],
-    links: {
-      live: "https://movies-mern.vercel.app/",
-      github: "https://github.com/vikas-saini-7/movies-mern",
-    },
-    image: "images/projects/project-1.png",
-  },
-  {
     id: 2,
     type: "startup web-app",
     name: "MyTribe - Frontend",
@@ -76,8 +61,8 @@ export const ProjectsData = [
       "Created multiple ui for roles like - Content Creator, Event Organiser, Event Sponsor, Admin.",
     ],
     links: {
-      live: "https://mytribe-frontend.vercel.app",
-      github: "https://github.com/mytribe04/mytribe-frontend",
+      live: "https://mytribe.co.in",
+      github: "https://github.com/mytribe04/mytribe-frontend/tree/dev",
     },
     image: "images/projects/project-2.png",
   },
@@ -95,6 +80,21 @@ export const ProjectsData = [
       github: "https://github.com/vikas-saini-7/Acunetix11",
     },
     image: "images/projects/project-3.png",
+  },
+  {
+    id: 1,
+    type: "self learning",
+    name: "DarkFlix- Movies Mern App",
+    tech: ["Mern Stack", "Tailwind css", "ReactJS", "Redux Toolkit", "MongoDB"],
+    description: [
+      "Created fully functional Authentication System.",
+      "Built comment system so that user can comment and organise their comments on the movies and tv-series",
+    ],
+    links: {
+      live: "https://movies-mern.vercel.app/",
+      github: "https://github.com/vikas-saini-7/movies-mern",
+    },
+    image: "images/projects/project-1.png",
   },
   // {
   //     id: 4,
